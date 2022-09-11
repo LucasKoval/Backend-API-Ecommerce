@@ -1,4 +1,4 @@
-# Ecommerce API Backend (2022)
+# Backend API - Ecommerce (2022)
 
 Developed by [Lucas Koval](https://lucaskovaldev.com/) for the Final Project at CoderHouse.
 
