@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "backend-api-ecommerce",
+  "version": "1.0.0",
+  "description": "Backend API for Ecommerce with NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "start:json": "cross-env DB_ENV=json node .",
+    "start:mongodb": "cross-env DB_ENV=mongodb node .",
+    "start:firebase": "cross-env DB_ENV=firebase node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasKoval/CH-Final-Project.git"
+  },
+  "keywords": [],
+  "author": "Lucas Koval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasKoval/CH-Final-Project/issues"
+  },
+  "homepage": "https://github.com/LucasKoval/CH-Final-Project#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase-admin": "^10.2.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
