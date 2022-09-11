@@ -13,16 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LucasKoval/CH-Final-Project.git"
+    "url": "git+https://github.com/LucasKoval/Backend-API-Ecommerce.git"
   },
   "keywords": [],
   "author": "Lucas Koval",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LucasKoval/CH-Final-Project/issues"
+    "url": "https://github.com/LucasKoval/Backend-API-Ecommerce/issues"
   },
-  "homepage": "https://github.com/LucasKoval/CH-Final-Project#readme",
+  "homepage": "https://github.com/LucasKoval/Backend-API-Ecommerce#readme",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "firebase-admin": "^10.2.0",
     "mongodb": "^4.6.0",
